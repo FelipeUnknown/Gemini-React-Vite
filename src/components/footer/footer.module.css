@@ -1,0 +1,312 @@
+.Footer{
+    padding-top: 5rem;
+}
+.footerWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-top: 1px solid gray;
+}
+.superriorFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foterTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: start;
+}
+.footerLogo{
+    width: 23%;
+}
+.foterTxt p{
+    color: #a8a8b3;
+    max-width: 50ch;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+  /* // BTNS */
+.footerBTNS{
+    display: flex;
+}
+button {
+    margin: 0.5cm;
+  }
+  .Btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #c5d1de;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btn:hover .svgContainer {
+    border: 1px solid rgba(226, 226, 226, 0.466);
+    background-color: rgba(204, 204, 204, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  
+  .Btntwit {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .svgContainertwit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BGtwit {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .Btntwit:hover .BGtwit {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btntwit:hover .svgContainertwit {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  
+  .Btninsta {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .svgContainerinsta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BGinsta {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    z-index: -1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .Btninsta:hover .BGinsta {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btninsta:hover .svgContainerinsta {
+    background-color: rgba(156, 156, 156, 0.466);
+  }
+  
+  .Btnstock {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .svgContainerstock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BGstock {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #1877f2;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .Btnstock:hover .BGstock {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btnstock:hover .svgContainerstock {
+    background-color: rgba(202, 202, 202, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  /* // BTNS */
+
+.inferiorFooter{
+    padding-top:1rem ;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.inferiorFooter p{
+    font-size: 1rem;
+    font-family: 500;
+    color: #a8a8b3;
+}
+.footerTerms{
+    display: flex;
+    gap: 1rem;
+}
+.footerINBtn{
+    color:#a8a8b3;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footerINBtn:hover{
+    color: #1877f2;
+    text-shadow:0 0 20px rgba(9, 117, 241, 0.8);
+    transition: 0.3s ease-in-out;
+}
+.footerINBtn:active{
+    text-shadow:  0 0 10px rgba(9, 117, 241, 0.4);
+}
+
+@media(max-width:800px){
+    .superriorFooter{
+        flex-direction: column
+    }
+    .foterTxt{
+        align-items:center ;
+        text-align: center;
+    }
+    .inferiorFooter{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}
+  
