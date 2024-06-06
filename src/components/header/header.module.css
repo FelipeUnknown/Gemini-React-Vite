@@ -1,12 +1,11 @@
 .Header {
   margin: 0 auto;
-  justify-content:inherit;
 }
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.headerWrapper {
   padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid gray;
 }
 .ulNav {

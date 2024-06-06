@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
@@ -12,7 +12,7 @@
 
 body{
   background-color:#17161e;
-  font-family: "open-sans" ,sans-serif;
+  font-family: "Open Sans", sans-serif;
 
 }
 

@@ -29,7 +29,7 @@ const Feature = () => {
               <div>
                 <img src={DeepL} />
               </div>
-              <h2>Machine Learning</h2>
+              <h2>RNAs</h2>
               <button className={style.button}>
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
@@ -43,7 +43,7 @@ const Feature = () => {
               <div>
                 <img src={BigD} />
               </div>
-              <h2>Machine Learning</h2>
+              <h2>Big Data</h2>
               <button className={style.button}>
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
@@ -57,8 +57,11 @@ const Feature = () => {
               <div>
                 <img src={ComputaçãoN} />
               </div>
-              <h2>Machine Learning</h2>
-              <button className={style.button}>
+              <h2>IaaS </h2>
+              <button
+                className={style.button}
+                href="https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-br#:~:text=Cloud%20Computing%20Foundations%3A-,Definição%20da%20computação%20em%20nuvem,pagarão%20apenas%20pelo%20que%20usarem."
+              >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>
@@ -71,8 +74,11 @@ const Feature = () => {
               <div>
                 <img src={Pln} />
               </div>
-              <h2>Machine Learning</h2>
-              <button className={style.button}>
+              <h2>PLN</h2>
+              <button
+                className={style.button}
+                href="https://cloud.google.com/learn/what-is-natural-language-processing?hl=pt-br"
+              >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>

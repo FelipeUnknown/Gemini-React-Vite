@@ -16,18 +16,14 @@
   );
   font-size: 60px;
   font-weight: 700;
-  /* text-shadow: 0 0 20px
-    linear-gradient(
-      137deg,
-      rgba(0, 119, 204, 0.8) 40%,
-      rgba(253, 65, 96, 0.4) 60%
-    ); */
 }
 .featureContent {
   display: flex;
   justify-content: space-around;
 }
+
 /* /Cards */
+
 .card {
   position: relative;
   width: 190px;
@@ -72,6 +68,7 @@
   font-weight: 600;
 }
 /* //Cards */
+
 /* /Saiba mais BTN */
 .button {
   --dark: #181818;

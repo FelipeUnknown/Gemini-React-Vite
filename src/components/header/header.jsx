@@ -16,7 +16,7 @@ const Header = () => {
   };
   return (
     <header className={`${style.Header} ${menuActive ? style.active : ""}`}>
-      <div className={style.wrapper}>
+      <div className={style.headerWrapper}>
         <div>
           <img src={Logo} />
         </div>
@@ -40,12 +40,20 @@ const Header = () => {
             </div>
             <div className={style.navLiDiv2}>
               <li>
-                <a className={style.loginBtn} href="/">
+                <a
+                  className={style.loginBtn}
+                  href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Dpt-BR%26sa%3DX%26ved%3D0ahUKEwib9uykmMeGAxXSqZUCHXarFuAQPAgJ&ec=GAZAmgQ&hl=pt-BR&ifkv=AS5LTATzhly2UsYg7okxyAkDl0HWQ9WXFg7YpYpDSAgHPttlNPtrqX7GWyMzqCHTQI1ZCMVUGRN6UQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S2048187966%3A1717684208555871&ddm=0"
+                  rel="noreferrer, noopener"
+                >
                   Login
                 </a>
               </li>
               <li>
-                <a className={style.registroBtn} href="/">
+                <a
+                  className={style.registroBtn}
+                  href="https://accounts.google.com/lifecycle/steps/signup/name?continue=https://www.google.com/webhp?hl%3Dpt-BR%26sa%3DX%26ved%3D0ahUKEwib9uykmMeGAxXSqZUCHXarFuAQPAgJ&ddm=0&dsh=S2048187966:1717684208555871&ec=GAZAmgQ&flowEntry=SignUp&flowName=GlifWebSignIn&hl=pt-BR&ifkv=AS5LTATzhly2UsYg7okxyAkDl0HWQ9WXFg7YpYpDSAgHPttlNPtrqX7GWyMzqCHTQI1ZCMVUGRN6UQ&TL=AC3PFD4gGZlugkAW_MeskDnMwsYFYISM1a6eWFfV8O1ULYQKBUqWzqJA9LzHVSyD"
+                  rel="noreferrer, noopener"
+                >
                   Registro
                 </a>
               </li>
