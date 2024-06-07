@@ -34,14 +34,14 @@
   text-shadow: 0 0 10px rgba(9, 117, 241, 0.4);
 }
 .loginBtn {
-  padding: 12px 22px;
+  padding: 12px 30px;
   font-size: 16px;
   font-weight: 600;
   border: 2px solid #414141;
   color: white;
   background-color: transparent;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .loginBtn:hover {
@@ -59,21 +59,27 @@
   color: white;
   background-color: transparent;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .registroBtn:hover {
-  border-color: #d36779;
-  box-shadow: 0 0 20px rgba(212, 103, 121, 0.8);
+  border-color: #FF3355;
+  box-shadow: 0 0 20px rgba(255, 51, 85, 0.8);
 }
 .registroBtn:active {
-  box-shadow: 0 0 10px rgba(212, 103, 121, 0.4);
+  box-shadow: 0 0 10px rgba(255, 51, 85, 0.4);
 }
 #buttonMobile {
   display: none;
 }
 @media (max-width: 800px) {
   /* / Menu mobile */
+  .loginBtn{
+    border: none;
+  }
+  .registroBtn{
+    border: none;
+  }
   .headerNav {
     display: none;
   }
@@ -106,6 +112,7 @@
     flex-direction: column;
   }
   .navLiDiv2 {
+    gap:2rem;
     flex-direction: column;
   }
 

@@ -8,7 +8,7 @@ const Feature = () => {
   return (
     <section className={style.Feature}>
       <div className={style.featureWrapper}>
-        <h2>Tecnologias</h2>
+        <h2 className={style.featureTittle}>Tecnologias</h2>
         <div className={style.featureContent}>
           <div className={style.card}>
             <div className={style.cardsContent}>
@@ -86,6 +86,27 @@ const Feature = () => {
               </button>
             </div>
           </div>
+        </div>
+        <div className={style.featureText}>
+          <h2>Quem sou?</h2>
+          <p>
+            Sou Gemini, um grande modelo de linguagem do Google AI, treinado em
+            um enorme conjunto de dados de texto e código. Geração de Conteúdo:
+            Crie textos, scripts, poemas, músicas, e-mails, cartas e muito mais,
+            com apenas algumas instruções. Tradução Instantânea: Elimine
+            barreiras linguísticas e comunique-se com o mundo todo com precisão
+            e fluidez. Respostas Abrangentes: Obtenha respostas completas e
+            informativas para suas perguntas, mesmo as mais desafiadoras ou
+            complexas. Criatividade Sem Limites: Dê asas à sua imaginação e
+            explore novas formas de expressão com a ajuda do Gemini. Sou fruto
+            da combinação de tecnologias de ponta em inteligência artificial,
+            incluindo: Aprendizado de Máquina Redes Neurais Artificiais (RNAs)
+            Big Data Computação em Nuve Processamento de Linguagem Natural (PLN)
+            Estou sempre aprendendo e evoluindo, animado para ver o que o futuro
+            reserva para mim e para a IA! Ainda estou em desenvolvimento e nem
+            sempre posso ser perfeito. Se você tiver algum feedback ou sugestão,
+            por favor me avise!
+          </p>
         </div>
       </div>
     </section>

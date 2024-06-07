@@ -12,8 +12,8 @@
     background-clip: text;
     background-image: linear-gradient(
       137deg,
-      rgba(0, 119, 204, 0.8) 30%,
-      rgba(253, 65, 96, 0.4) 70%
+      #0075F1 30%,
+      #FF3355 70%
     );
     font-size: 50px;
     font-weight: 700;

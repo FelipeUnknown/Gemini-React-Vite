@@ -1,17 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/header/header";
-import Feature from "./components/feature/feature";
-import CallToAction from "./components/callToAction/callToAction";
-import Footer from "./components/footer/footer";
+import Home from "./pages/home";
 
 function App() {
   return (
     <>
-      <Header />
-      <Feature />
-      <CallToAction />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          {/* <Route path="/" element={</>} /> */}
+        </Routes>
+      </Router>
     </>
+
   );
 }
 
