@@ -16,12 +16,14 @@ const Feature = () => {
                 <img src={MachineL} />
               </div>
               <h2>Machine Learning</h2>
-              <button className={style.button}>
+              <a  className={style.button}
+              href="https://cloud.google.com/learn/what-is-machine-learning?hl=pt-br" target="_blank" rel="noreferrer, noopener"
+              >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>
                 <span className={style.textButton}>Saiba mais</span>
-              </button>
+              </a>
             </div>
           </div>
           <div className={style.card}>
@@ -30,12 +32,14 @@ const Feature = () => {
                 <img src={DeepL} />
               </div>
               <h2>RNAs</h2>
-              <button className={style.button}>
+              <a className={style.button}
+              href="https://aws.amazon.com/pt/what-is/neural-network/#:~:text=Uma%20rede%20neural%20é%20um,camadas%2C%20semelhante%20ao%20cérebro%20humano." target="_blank" rel="noreferrer, noopener"
+              >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>
                 <span className={style.textButton}>Saiba mais</span>
-              </button>
+              </a>
             </div>
           </div>
           <div className={style.card}>
@@ -44,12 +48,14 @@ const Feature = () => {
                 <img src={BigD} />
               </div>
               <h2>Big Data</h2>
-              <button className={style.button}>
+              <a className={style.button}
+              href="https://cloud.google.com/learn/what-is-big-data?hl=pt-br" target="_blank" rel="noreferrer, noopener"
+              >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>
                 <span className={style.textButton}>Saiba mais</span>
-              </button>
+              </a>
             </div>
           </div>
           <div className={style.card}>
@@ -58,15 +64,15 @@ const Feature = () => {
                 <img src={ComputaçãoN} />
               </div>
               <h2>IaaS </h2>
-              <button
+              <a
                 className={style.button}
-                href="https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-br#:~:text=Cloud%20Computing%20Foundations%3A-,Definição%20da%20computação%20em%20nuvem,pagarão%20apenas%20pelo%20que%20usarem."
+                href="https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-br#:~:text=Cloud%20Computing%20Foundations%3A-,Definição%20da%20computação%20em%20nuvem,pagarão%20apenas%20pelo%20que%20usarem." target="_blank" rel="noreferrer, noopener"
               >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>
                 <span className={style.textButton}>Saiba mais</span>
-              </button>
+              </a>
             </div>
           </div>
           <div className={style.card}>
@@ -75,15 +81,15 @@ const Feature = () => {
                 <img src={Pln} />
               </div>
               <h2>PLN</h2>
-              <button
+              <a
                 className={style.button}
-                href="https://cloud.google.com/learn/what-is-natural-language-processing?hl=pt-br"
+                href="https://cloud.google.com/learn/what-is-natural-language-processing?hl=pt-br" target="_blank" rel="noreferrer, noopener"
               >
                 <div className={style.iconCont}>
                   <span className={style.icon}>🡪</span>
                 </div>
                 <span className={style.textButton}>Saiba mais</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

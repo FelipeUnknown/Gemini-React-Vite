@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className={style.footerDivBtns}>
             <div className={style.footerBTNS}>
-              <button
+              <a
                 className={style.Btn}
                 href="https://github.com/FelipeUnknown"
               >
@@ -33,9 +33,9 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className={style.BG}></span>
-              </button>
+              </a>
 
-              <button
+              <a
                 className={style.Btntwit}
                 href="https://x.com/googlebrasil/status/1792957682359345440"
               >
@@ -51,10 +51,10 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className={style.BGtwit}></span>
-              </button>
+              </a>
             </div>
             <div className={style.footerBTNS}>
-              <button
+              <a
                 className={style.Btninsta}
                 href="https://www.instagram.com/gemini/"
               >
@@ -70,9 +70,9 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className={style.BGinsta}></span>
-              </button>
+              </a>
 
-              <button
+              <a
                 className={style.Btnstock}
                 href="https://www.facebook.com/geminiaiforads"
               >
@@ -87,7 +87,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className={style.BGstock}></span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

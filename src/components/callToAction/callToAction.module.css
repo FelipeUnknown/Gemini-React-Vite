@@ -189,30 +189,32 @@
     }
   }
   /* // Começar btn */
-
-  .loader {
-    display: flex;
-    justify-content: center;
-    user-select: none;
+/* /Estrela Gemini */
+.loader {
+  display: flex;
+  justify-content: center;
+  user-select: none;
   }
   
   .starStar1 {
     opacity: 0;
     fill: #f2f3f4;
     animation: loader 5s forwards;
-  }
-  @keyframes loader {
-    0% {
-      opacity: 0;
-      transform: translateY(0) translateX(50px) rotate (0deg);
     }
-    10% {
-      opacity: 0;
-      transform: translateY(0) translateX(50px) rotate(0deg);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(-20px) translateX(0) rotate(360deg);
+    @keyframes loader {
+      0% {
+        opacity: 0;
+        transform: translateY(0) translateX(50px) rotate (0deg);
+        }
+        10% {
+          opacity: 0;
+          transform: translateY(0) translateX(50px) rotate(0deg);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(-20px) translateX(0) rotate(360deg);
     }
     
-  }
+    }
+    /* /Estrela Gemini */
+    

@@ -30,12 +30,17 @@
 }
 
   /* // BTNS */
+.footerDivBtns{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
 .footerBTNS{
     display: flex;
+    gap: 1.7rem;
 }
-button {
-    margin: 0.5cm;
-  }
+
+
   .Btn {
     width: 45px;
     height: 45px;
@@ -297,7 +302,8 @@ button {
 
 @media(max-width:800px){
     .superriorFooter{
-        flex-direction: column
+        flex-direction: column;
+        gap: 2rem;
     }
     .foterTxt{
         align-items:center ;

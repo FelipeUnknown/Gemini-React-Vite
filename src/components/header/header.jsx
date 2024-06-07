@@ -7,9 +7,9 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const links = [
     { name: "Inicio", link: "/" },
-    { name: "Documentação", link: "/" },
-    { name: "Tecnologias", link: "/" },
-    { name: "Impacto", link: "/" },
+    { name: "Documentação", link: "https://ai.google.dev/gemini-api/docs?hl=pt-br" },
+    { name: "Tecnologias", link: "https://deepmind.google/technologies/" },
+    { name: "Impacto", link: "https://deepmind.google/impact/" },
   ];
   const toggleMenu = () => {
     setMenuActive(!menuActive);
@@ -32,7 +32,7 @@ const Header = () => {
             <div className={style.navLiDiv}>
               {links.map((link, index) => (
                 <li className={style.navLi} key={index}>
-                  <a href="/" className={style.linksMenuLi} key={index}>
+                  <a href="" rel="noreferrer, noopener" className={style.linksMenuLi} key={index}>
                     {link.name}
                   </a>
                 </li>

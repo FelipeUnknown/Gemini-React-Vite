@@ -17,7 +17,7 @@ const Hero = () => {
             oferece recursos inovadores.
           </p>
           <div>
-            <button className={style.bntImpacto}>Impacto</button>
+            <a href="https://deepmind.google/impact/"target="_blank" rel="noreferrer, noopener" className={style.bntImpacto}>Impacto</a>
           </div>
         </div>
       </div>
