@@ -3,17 +3,17 @@ import GeminiStar from "../../assets/img/geminiStar.png";
 
 const Inicio = () => {
   return (
-    <section className={style.section}>
-      <div className={style.wrapper}>
-        <div className={style.loader}>
-          <img className={style.starStar1} src={GeminiStar} />
+    <section className={style.Initial}>
+      <div className={style.initialWrapper}>
+        <div className={style.initialLoader}>
+          <img className={style.star1} src={GeminiStar} />
         </div>
-        <div className={style.txt}>
+        <div className={style.initialTxt}>
           <h2>
             Bem-vindos ao <span className={style.GeminiTxt}>GEMINI</span>{" "}
           </h2>
         </div>
-        <div>
+        <div className={style.initialDivBtn}>
           <a href="/home" className={style.btn}>
             Entre
           </a>
