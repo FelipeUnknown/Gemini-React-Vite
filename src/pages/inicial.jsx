@@ -8,4 +8,4 @@ const Inicial = () => {
   )
 }
 
-export default Inicial
+export default Inicial;

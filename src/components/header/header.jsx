@@ -42,7 +42,7 @@ const Header = () => {
               <li>
                 <a
                   className={style.loginBtn}
-                  href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Dpt-BR%26sa%3DX%26ved%3D0ahUKEwib9uykmMeGAxXSqZUCHXarFuAQPAgJ&ec=GAZAmgQ&hl=pt-BR&ifkv=AS5LTATzhly2UsYg7okxyAkDl0HWQ9WXFg7YpYpDSAgHPttlNPtrqX7GWyMzqCHTQI1ZCMVUGRN6UQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S2048187966%3A1717684208555871&ddm=0"
+                  href="/LoginPage"
                   rel="noreferrer, noopener"
                 >
                   Login
