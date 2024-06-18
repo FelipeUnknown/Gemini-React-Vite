@@ -1,8 +1,10 @@
 .PasswordDiv{
+    padding-left: 2.5rem;
     display: flex;
     gap: 1rem;
     align-items: center;
 }
+
 .inputTXT{
     padding: 0.6rem;
     max-width: 10rem;

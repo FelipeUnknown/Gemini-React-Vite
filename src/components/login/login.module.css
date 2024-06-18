@@ -1,61 +1,74 @@
-.Login{
-    padding-top: 5rem;
+.Login {
+  padding-top: 5rem;
 }
 .loginWrapper {
-    border-radius: 10px;
-    filter: drop-shadow(0px 0px 30px rgba(9, 117, 241, 0.4));
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 30px rgba(9, 117, 241, 0.4));
 }
-.loginWrapper .loginContent{
-    border-radius: 10px;
-    display: flex;
+.loginWrapper .loginContent {
+  border-radius: 10px;
+  display: flex;
 }
-.loginImgLogo{
-    width: 100%;
+.loginImgLogo {
+  width: 100%;
 }
-.loginImgStars{
-    border-radius: 10px;
-    width: 100%;
+.loginImgStars {
+  border-radius: 10px;
+  width: 100%;
 }
-.loginFaceDiv{
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-    color: blue;
-    background-color:#17161e;
-    border-radius: 10px;
+.loginFaceDiv {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  color: blue;
+  background-color: #17161e;
+  border-radius: 10px;
 }
-.inputTXTDiv{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
+.inputTXTDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.inputTXT{
-    padding: 0.6rem;
-    max-width: 10rem;
-    background-color:#23222e;
-    border-radius: 7px;
-    border: none;
+.inputTXTDiv p{
+    color: #a8a8b3;
+    font-size: 10px;
+}
+.inputTXTDiv a{
+    color: #0974f1;
+}
+.inputTXT {
+  padding: 0.6rem;
+  max-width: 10rem;
+  background-color: #23222e;
+  border-radius: 7px;
+  border: none;
 }
 .entrarBtn {
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: 600;
-    border: 2px solid #414141;
-    color: white;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: 20px;
-    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  .entrarBtn:hover {
-    border-color: #0974f1;
-    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
-  }
-
-  
-
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #414141;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.entrarBtn:hover {
+  border-color: #0974f1;
+  box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+}
+@media(max-width:800px){
+    .loginImgLogo{
+        display: none;
+    }
+    .loginFaceDiv{
+        width: 70%;
+        height: 30rem;
+    }
+}

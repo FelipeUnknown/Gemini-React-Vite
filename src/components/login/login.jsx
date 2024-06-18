@@ -19,7 +19,10 @@ const Login = () => {
                 placeholder="Digite o seu email"
                 className={style.inputTXT}
               ></input>
-              <InputSenha></InputSenha>
+              <div>
+                <InputSenha></InputSenha>
+              <p>Esqueceu a senha? <a href="/home"> Clique aqui</a></p>
+              </div>
               <div>
                 <button type="submit" className={style.entrarBtn}>
                   Entrar
