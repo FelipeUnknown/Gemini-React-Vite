@@ -6,7 +6,7 @@ const CallToAction = () => {
       <div className={style.ctaWrapper}>
         <div className={style.ctaContent}>
 
-          <h2>Comece a converversar com o Gemini</h2>
+          <h2>Comece a conversar com o Gemini</h2>
           <div className={style.loader}>
             <img className={style.starStar1} src={GeminiStar}/>
           </div>
